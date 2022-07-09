@@ -13,9 +13,8 @@ xsetroot -solid "#2C2E3D"
 xsetroot -cursor_name left_ptr &
 #xinput --set-prop 11 322 1
 sh ~/.config/polybar/polybar.sh &
-sh ~/.config/wmrules/spotify.sh &
 sxhkd &
-picom -b &
+#picom -b &
 setxkbmap -layout us -option grp:rctrl_rshift_toggle &
 nitrogen --restore &
 dbus-launch dunst --config ~/.config/dunst/dunstrc &
@@ -23,7 +22,7 @@ lxpolkit &
 #nm-applet &
 xss-lock -l ~/.scripts/transfer-sleep-lock-i3lock.sh &
 powerprofilesctl set power-saver &
-bluemoon &
+
 # # # # # #
 #  BSPWM  #
 # # # # # #
